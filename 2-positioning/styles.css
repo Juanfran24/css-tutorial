@@ -1,0 +1,28 @@
+header {
+    background-color: #000;
+    border: solid 2px rgb(95, 224, 20);
+    color: #fff;
+    position: sticky;
+}
+
+nav {
+    border: solid 2px blue;
+    position: absolute;
+    width: 200px;
+}
+
+section {
+    border: solid 2px red;
+    margin-left: 200px;
+}
+
+footer {
+    bottom: 0;
+    border: solid 2px orange;
+    background-color: #000;
+    color: #fff;
+    height: 70px;
+    left: 0;
+    position: fixed;
+    width: 100%;
+}
