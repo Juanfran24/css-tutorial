@@ -1,0 +1,50 @@
+#formulario{
+    background-color: rgb(233, 231, 231);
+}
+
+#formulario fieldset{
+    background-image: url(https://i.pinimg.com/originals/b8/83/3a/b8833a9da1cf3e190ae5b0fb6f2e8c6f.jpg);
+    border-radius: 5px;
+    margin-top: 40px;
+    display: flex;
+    border-color: blue;
+}
+
+legend {
+    color: blue;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+label {
+    color: black;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+input {
+    margin: 20px 10px 20px 10px;
+}
+
+legend, label {
+    font-family: Arial;
+}
+
+#sendButton:hover{
+    background-color: blue;
+    height: 30px;
+    color: white;
+}
+
+#resetButton:hover{
+    background-color: gray;
+    height: 30px;
+    color: white;
+}
+
+#messageInput {
+    margin-top: 30px;
+}
+
+
+
