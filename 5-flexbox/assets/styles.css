@@ -3,24 +3,24 @@
     flex-direction: row;
 }
 
-img {
-    width: 300px;
-    height: 300px;
+.hero-img {
     background-color: rgb(165, 62, 62);
     background-blend-mode: darken;
     border-radius: 10em;
     border-color: antiquewhite;
     border-width: 3px;
 }
+
 li {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 70px;
     background-blend-mode: darken;
     background-color: rgba(0, 0, 0, 0.7);
     border-radius: 2em;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 70px;
     padding: 20px;
 }
+
 body {
     background-image: url('https://www.todofondos.net/wp-content/uploads/marvel-comics-wallpaper-4k-fondo-de-pantalla-hd-y-descarga-de-fondo.jpg');
     background-blend-mode: darken;
@@ -28,14 +28,14 @@ body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-p{
+p {
+    align-items: center;
     display: flex;
     justify-content: center;
-    align-items: center;
     padding: 30px;
 }
 
-ul{
+ul {
     list-style: none;
     padding: 0;
 }
@@ -50,23 +50,23 @@ ul{
 }
 
 .centrado {
+    align-items: center;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 h1 {
     align-self: center;
-    text-shadow: 0 1px 0px #378ab4, 1px 0 0px #5dabcd, 1px 2px 1px #378ab4, 2px 1px 1px #5dabcd, 2px 3px 2px #378ab4, 3px 2px 2px #5dabcd, 3px 4px 2px #378ab4, 4px 3px 3px #5dabcd, 4px 5px 3px #378ab4, 5px 4px 2px #5dabcd, 5px 6px 2px #378ab4, 6px 5px 2px #5dabcd, 6px 7px 1px #378ab4, 7px 6px 1px #5dabcd, 7px 8px 0px #378ab4, 8px 7px 0px #5dabcd;
     font-size: 2.5em;
+    text-shadow: 0 1px 0px #378ab4, 1px 0 0px #5dabcd, 1px 2px 1px #378ab4, 2px 1px 1px #5dabcd, 2px 3px 2px #378ab4, 3px 2px 2px #5dabcd, 3px 4px 2px #378ab4, 4px 3px 3px #5dabcd, 4px 5px 3px #378ab4, 5px 4px 2px #5dabcd, 5px 6px 2px #378ab4, 6px 5px 2px #5dabcd, 6px 7px 1px #378ab4, 7px 6px 1px #5dabcd, 7px 8px 0px #378ab4, 8px 7px 0px #5dabcd;
 }
 
-h2{
+h2 {
     align-self: center;
     text-shadow: 2px 2px 0 #4074b5, 2px -2px 0 #4074b5, -2px 2px 0 #4074b5, -2px -2px 0 #4074b5, 2px 0px 0 #4074b5, 0px 2px 0 #4074b5, -2px 0px 0 #4074b5, 0px -2px 0 #4074b5;
 }
 
-.heroe-button{
+.heroe-button {
     align-self: center;
     width: 100px;
 }
