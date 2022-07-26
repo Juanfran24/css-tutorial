@@ -7,9 +7,9 @@ header {
 
 nav {
     border: solid 2px blue;
+    box-sizing: border-box;
     position: absolute;
     width: 200px;
-    box-sizing: border-box;
 }
 
 nav li {
@@ -22,9 +22,9 @@ nav ul {
 
 section {
     border: solid 2px red;
+    box-sizing: border-box;
     margin-left: 200px;
     padding: 0 10px;
-    box-sizing: border-box;
 }
 
 footer {
