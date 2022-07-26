@@ -1,0 +1,32 @@
+.content-grid {
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr 1fr;
+    grid-gap: 1.5rem;
+    margin-top: 1em;
+    margin-right: 5em;
+}
+
+.styles-article {
+    background-color: rgb(95, 94, 94);
+    border-radius: 0.3em;
+    color: white;
+    font-size: 3em;
+    padding: 2em;
+}
+
+.article-a {
+    grid-column: 1/3;
+}
+
+.article-c {
+    grid-row: 2;
+}
+
+.article-d {
+    grid-row: 2;
+}
+
+.aside-b {
+    grid-row: 1/3;
+}
+
